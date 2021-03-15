@@ -1,0 +1,5 @@
+.ionide
+obj
+bin/Debug/net5.0/*
+!bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+!bin/Debug/net5.0/Microsoft.Identity.Client.dll
