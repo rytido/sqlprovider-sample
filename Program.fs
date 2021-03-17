@@ -3,7 +3,7 @@ open FSharp.Data.Sql
 
 let [<Literal>] dbVendor = Common.DatabaseProviderTypes.MSSQLSERVER_DYNAMIC
 let [<Literal>] connString = "Server=server;Database=db;Trusted_Connection=True;"
-let [<Literal>] resolutionPath  = "bin/Debug/net5.0/"
+let [<Literal>] resolutionPath  = "lib"
 
 type sql = SqlDataProvider<dbVendor, connString, IndividualsAmount=1000, UseOptionTypes=true, ResolutionPath=resolutionPath>
 
